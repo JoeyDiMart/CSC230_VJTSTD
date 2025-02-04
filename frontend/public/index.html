@@ -11,24 +11,39 @@
 <body>
 
     <!--Navigation Bar-->
-    <header>
-        <nav>
-            <img width="200" height="100" src="https://marvel-b1-cdn.bc0a.com/f00000000192265/www.ut.edu/Images/logo%403x.png">
-            <h1>Criminology Institute for Research and Training</h1>
-            <ul>
-                <li><a href="#ResearchAssociates">Research Associates</a></li>
-                <li><a href="#Event">Events</a></li>
-                <li><a href="#Career Opportunities">Career Opportunities</a></li>
-                <li><a href="#About Us">About Us</a></li>
-                <li><a href="login.html">Sign Up/Login</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <img width="200" height="100" src="https://marvel-b1-cdn.bc0a.com/f00000000192265/www.ut.edu/Images/logo%403x.png">
+        <ul name="nav-links">
+            <li><a href="#ResearchAssociates">Research Associates</a></li>
+            <li><a href="#Event">Events</a></li>
+            <li><a href="#Career Opportunities">Career Opportunities</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="login.html">Sign Up/Login</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!--Header Section-->
+    <hr/>
+    <h1 id="header">Criminology Institute for Research and Training</h1>
+    <header name="header-section">
+       <ul name="dropdown-menu">
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#AboutUS">About Us</a>
+       </ul>
+
+
+    </header>
+
+
+
         <hr/>
         <h2>Publications</h2>
         <form action="/search" method="GET">
             <input type="search" name="q" placeholder="Search..." required>
         </form>
         <hr/>
-    </header>
+    
 </body>
 </html>
