@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="../images/UTampa_mark.png" type="image/png">
-    <title>Sign In</title>
 
 </head>
 
@@ -13,30 +13,51 @@
 <body>
 
     <!--Main Container-->
-    <div class="account-creation" id="container">
+    <div class="account-create" id="container">
+
         <!--Sign In Form-->
         <div class="form-container-sign-in">
             <form>
-                <header>Login</header>
+                <!--Social Icons-->
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-apple"></i></a>
                 </div>
 
                 <!--Input Group Class-->
-                <div class="input-group">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <label><input type="checkbox" id="remember-me" name="remember-me">Remember Me</label>
-                    <button type="submit">Login</button>
-                    <a href="#Forgot Your Password">Forgot Your Password?</a>
+                <div class="login-box">
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" id="email" name="email">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" id="password" name="password">
+                    </div>
+
+                    <div class="forgot-password">
+                        <section>
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </section>
+                        <section>
+                            <a href="forgot-password.html">Forgot Password?</a>
+                        </section>
+                    </div>
+                    <div class="input-submit">
+                        <button class="submit-botton" id="submit"></button>
+                        <label for="submit">Sign In</label>
+                    </div>
+                    
+                    <!--Sign Up Option-->
+                    <div class="sign-up-link">
+                        <p>New to CIRT?<a href="sign-up.html"> Sign Up</a></p>
+                    </div>
+
+
                 </div>
+
             </form>
 
-            <!--Sign Up Option-->
-            <div class="sign-up-reference">
-                <p>New to CIRT?<a href="sign-up.html"> Sign Up</a>
-            </div>
+            
 
         </div>
     </div>
